@@ -17,10 +17,9 @@ o	Queries support filtering by grade, state, term, purpose, etc.
 # Project Overview:
 The Bank Loan Analysis with MySQL project focuses on analysing banking loan data to derive key insights and performance metrics. It includes SQL queries that help evaluate loan applications, funded amounts, interest rates, debt-to-income ratios, and loan statuses.
 Using structured queries, this project enables users to:
-### Assess Loan Performance – Identify good and bad loans based on repayment status.
-### Monitor Key Metrics – Track total funded amounts, amounts received, and interest rates.
-### Analyse Trends – Break down loan applications by month, state, term, employment length, and purpose.
-### Enable Data-Driven Decisions – Filter and compare loan data dynamically using SQL queries.
+#### Assess Loan Performance – Identify good and bad loans based on repayment status.
+#### Monitor Key Metrics – Track total funded amounts, amounts received, and interest rates.
+#### Analyse Trends – Break down loan applications by month, state, term, employment length, and purpose.
 # Key Features:
 ## Loan Applications Summary
 •	Total loan applications (Overall, Month-to-Date (MTD), Previous Month-to-Date (PMTD))  
@@ -47,7 +46,23 @@ This project helps in evaluating lending risks, improving loan approval strategi
 ### MYSQL
 For querying and analysing the sales data stored in the database. Power BI (Optional): For visualizing and presenting the insights and trends.
 Insights and Analysis:
-This MySQL-based analysis uncovers valuable insights into loan performance, borrower trends, and financial risk assessment. Here are the key findings from the dataset:
+This MySQL-based analysis uncovers valuable insights into loan performance, borrower trends, and financial risk assessment. Here are the key findings from the dataset
+
+## Dataset
+##### The dataset (bank_loan_data) includes fields such as:
+##### id: Unique loan ID
+##### issue_date: Loan issuance date
+##### loan_amount: Approved loan amount
+##### total_payment: Total amount received
+##### int_rate: Interest rate on loan
+##### dti: Debt-to-income ratio
+##### loan_status: Loan status (Fully Paid, Current, Charged Off)
+##### address_state: Borrower's state
+##### term: Loan term
+##### purpose: Purpose of loan
+##### home_ownership: Home ownership status
+
+# Key Insights:
 ________________________________________
 ## 1 Loan Application Trends
 Total Loan Applications: Provides a count of all loan applications processed.  
