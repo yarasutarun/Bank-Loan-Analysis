@@ -1,5 +1,4 @@
 # Bank-Loan-Analysis
-The project provides a comprehensive overview of loan distribution and financial risk assessment, making it valuable for financial institutions, analysts, and data enthusiasts
 This project provides an in-depth analysis of bank loan data using MySQL. It includes SQL queries to generate key performance indicators (KPIs) such as total loan applications, funded amounts, interest rates, debt-to-income ratios, and loan performance categorization. The dataset can be filtered and analysed based on different parameters like loan status, term, purpose, home ownership, and state.
 # Features
 ## Loan Applications Summary
